@@ -2,6 +2,7 @@ import './css/App.css'
 import { Routes, Route } from "react-router-dom"
 import Favorites from "./pages/Favorites";
 import NavBar from "./components/NavBar";
+import ScrollToTop from "./components/ScrollToTop";
 import { MovieProvider } from "./contexts/MovieContext";
 import Home from "./pages/Home"
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </main>
+      <ScrollToTop />
     </MovieProvider>
   );
 }
