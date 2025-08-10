@@ -1,12 +1,68 @@
-# React + Vite
+# 🎬 Movie Explorer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek React application that lets users explore popular movies and search for any film using [The Movie Database (TMDB) API](https://www.themoviedb.org/).
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
 
-## Expanding the ESLint configuration
+### 🏠 Homepage
+![Homepage Screenshot](src/assets/screenshots/home_page.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔍 Search Results
+![Search Screenshot](src/assets/screenshots/search_bar.png)
+
+### 🔍 Liked Movies
+![Search Screenshot](src/assets/screenshots/favorites.png)
+
+---
+
+## 🚀 Features
+
+- View popular movies in real-time
+- Search for movies by title
+- Responsive UI
+- Built with React and modern JavaScript (ES6+)
+- Powered by TMDB API
+
+---
+
+## 🧰 Tech Stack
+
+- ⚛️ React (Vite)
+- 💅 CSS / Tailwind (optional)
+- 🌐 TMDB REST API
+
+---
+
+## 🔧 Installation
+
+1. **Clone this repo:**
+
+```bash
+git clone https://github.com/Nerf-Ivan/ReactMovieList.git
+cd ReactMovieList
+
+2. Install dependencies:
+
+```bash
+npm install
+
+3. Set up your .env file:
+
+Create a file named .env in the root directory and add your TMDB API key:
+```ini
+Edit
+VITE_API_KEY=your_tmdb_api_key_here
+
+⚠️ Make sure your .env file is listed in .gitignore so it doesn't get pushed to GitHub!
+
+4. Run the app locally:
+
+```bash
+npm run dev
+The app will be available at http://localhost:5173 (or another port Vite chooses).
+
+## 📮 Acknowledgements
+The Movie Database (TMDB) API 
+
+YouTube Tutorial Source --> https://youtu.be/G6D9cBaLViA?si=BGU8Q79MpLuRvKlD
